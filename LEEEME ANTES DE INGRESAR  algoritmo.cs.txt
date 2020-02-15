@@ -1,0 +1,11 @@
+La idea era la sigueinte1.
+
+1.Sacar un elemento del arreglo 2d que contiene las oficina.
+	1.1 Revisar si en el bloque de  oficinas adyacenetes ya se encontraba por si ya había pasado por esa oficina, si no estaba continua al paso 2
+	,si si estaba se devuelve al paso uno en busca de otra oficina
+2. Añadir la oficina al arreglo de oficinas adyacenetes.
+3. Buscar por cada lado si cumplia que en todos habian muros para sumar la cantidad de oficinas algo como i+1,i-1,j+1,j-1
+	3.1 Si encuentra un uno volver al paso 2.
+	3.2 Si encuentra los cuatro muros sumar en 1  la cantidad de oficinas y volver al paso 1
+
+Pero solo logré implenentar algunas funciones, asi que no funciona, está incompleto
