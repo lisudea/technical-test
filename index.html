@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
+    <script type="text/javascript" src="static/js/index.js"></script>
+</head>
+<body>
+<div class="modal-dialog text-center">
+		<div class="cols-sm-8 main-section">
+			<div class="modal-content">
+				<div class="cols-12 user-img">
+				<img src="static/img/image1.jpg" width="200" height="200" />
+				</div>
+				
+				<form action="" id="form" class="cols-sm-8">
+					<div class="form-group" id="user-group">
+						<input type="text" id="name" class="form-control" placeholder="Nombre de usuario"/>
+
+					</div>
+					<div class="form-group" id="contra-group">
+						<input  id="contra" type="password" class="form-control" placeholder="Contrasena"/>
+
+					</div>
+					<button type="button"  onclick="getData()" class="btn btn-primary">
+					    <i class="fas fa-sign-in-alt"></i>
+                        Ingresar
+                     </button>
+				</form>
+			</div>
+		</div>
+</div>
+
+	</body>
+	</html>
