@@ -1,0 +1,3 @@
+recorrer toda la matriz buscando las parejas I,J que tienen un 1 para luego revisar cuales son continuas horizontal y verticalmente con I+1, I-1, J+1 J-1 hasta encontrar un salto con
+I+2, I-2, J+2 J-2 lo cual significaria que no son continuas
+
