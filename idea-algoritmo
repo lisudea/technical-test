@@ -1,0 +1,11 @@
+La idea era primero recorrer toda la matriz y guardar en una lista solo las posiciones que fueran "1", entonces ya solo tendriamos una lista con "cantidad de baldosas que sabemos que pertenecen a una oficina" aqui creamos una variable contadora de oficinas llamemosla S inicializada en 0.
+
+Entonces solo habria que comparar cada posición con las otras de la lista y ver cuáles son adyacentes entre sí, por ejemplo una posición (i,j) y otra (k,l),; si (k+l)-(i+j)=1 significa que esas dos posiciones (baldosas) son adyacentes,  cuando (k+l)-(i+j)>1 significa que esas posiciones comparadas no son adyacentes.
+
+Encontes creamos una nueva lista por cada conjunto de baldosas adyacentes entre sí y las guardamos dentro de otra lista, entonces si quisieramos saber el área de cada oficina solo vamos a su respectiva lista y contamos cuántos elementos (baldosas) tiene su lista y así sabriamos su área. Si quisieramos saber cuantas oficinas de cowork solo habría que contar cuantos elementos tiene la lista que contiene a la "lista de posiciones adyacentes" entonces si esa lista tiene 3 listas por ejemplo entonces significa que tenemos 3 oficinas distintas.
+
+Entonces ya podriamos hacer asignaciones con esos valores a otras variables y retornarlas o bien podriamos hacer el método len() a la respectiva lista de interés y saber su valor.
+
+No puse el algoritmo porque estaba muy recién hecho y solo llevaba algo trivial (ademas de que ya estaba bloqueado, quizás por los nervios xd), entonces pues solo subí éste txt con mi propuesta de solución y ojalá me haya hecho entender.
+
+Muchas gracias por la oportunidad de hacer este exámen <3
