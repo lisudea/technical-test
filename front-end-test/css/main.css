@@ -1,0 +1,26 @@
+body{
+	background: url('../img/code.jpg');
+	background-attachment: fixed;
+	background-size: auto auto; 
+}
+
+#logo{
+	color: white;
+	background: #03a9f4;
+}
+
+#global{
+	background: white;
+	box-shadow: 0px 0px 45px white;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"]{
+	box-shadow: 0px 0px 2px #03a9f4;
+}
+
+form input[type=button]{
+	background: #03a9f4;
+}

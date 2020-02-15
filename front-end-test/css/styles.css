@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+#global{
+	width: 65%;
+	margin: 0px auto;
+	margin-top: 30px;
+	padding: 25px; 
+}
+
+#logo{
+	font-family: Verdana, Arial;
+	font-size: 30px;
+	letter-spacing: 4px;
+	line-height: 75px;
+	text-align: center;
+	width: 100%;
+	height: 75px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+form input[type="text"],
+form input[type="password"]{
+	font-family: Montserrat;
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid gray;
+	width: 95%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+form input[type='button']{
+	font-family: Montserrat, sans-serif;
+	background: #34515e;
+	color: white;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer{
+	font-family: "Roboto", Arial;
+	color: white;
+	height: 47px;
+	background: rgba(51,51,51,0.70);
+	margin: 0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+	border-radius: 5px;
+}
